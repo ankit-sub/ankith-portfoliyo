@@ -1,12 +1,40 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useEffect } from 'react';
+import Navbar from '@/components/Navbar';
+import BackgroundShapes from '@/components/BackgroundShapes';
+import HeroSection from '@/sections/HeroSection';
+import AboutSection from '@/sections/AboutSection';
+import ProjectsSection from '@/sections/ProjectsSection';
+import SkillsSection from '@/sections/SkillsSection';
+import ContactSection from '@/sections/ContactSection';
+import Footer from '@/components/Footer';
 
 const Index = () => {
+  useEffect(() => {
+    // Add event listeners for touch interactions
+    const handleTouchStart = (e: TouchEvent) => {
+      document.body.style.overflow = 'auto';
+    };
+
+    document.addEventListener('touchstart', handleTouchStart);
+
+    return () => {
+      document.removeEventListener('touchstart', handleTouchStart);
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="relative min-h-screen overflow-x-hidden">
+      <BackgroundShapes />
+      <Navbar />
+      <main>
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ContactSection />
+      </main>
+      <Footer />
     </div>
   );
 };
