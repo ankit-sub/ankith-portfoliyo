@@ -16,7 +16,7 @@ const AboutSection = () => {
           <div className="lg:w-1/2 order-2 lg:order-1">
             <FloatingElement delay={300}>
               <h3 className="text-2xl font-semibold mb-4">
-                I'm a Passionate Web Developer & Designer
+                I'm Ankith K R, a Passionate Web Developer & Designer
               </h3>
             </FloatingElement>
             
