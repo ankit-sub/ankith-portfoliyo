@@ -10,12 +10,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <Link to="/" className="text-xl font-bold text-gradient">JD</Link>
+            <Link to="/" className="text-xl font-bold text-gradient">AKR</Link>
           </div>
           
           <div className="text-center md:text-left mb-4 md:mb-0">
             <p className="text-sm text-muted-foreground">
-              © {currentYear} John Doe. All rights reserved.
+              © {currentYear} Ankith K R. All rights reserved.
             </p>
           </div>
           

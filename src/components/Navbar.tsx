@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-gradient flex items-center gap-2">
           <FloatingElement animationType="none" className="w-10 h-10 bg-primary-purple text-white flex items-center justify-center rounded-lg">
-            P
+            A
           </FloatingElement>
           <span>Portfolio</span>
         </Link>

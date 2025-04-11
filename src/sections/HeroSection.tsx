@@ -20,7 +20,7 @@ const HeroSection = () => {
           
           <FloatingElement delay={400}>
             <h1 className="text-gradient font-bold mb-4">
-              John Doe
+              Ankith K R
             </h1>
           </FloatingElement>
           
