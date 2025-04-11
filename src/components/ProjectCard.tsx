@@ -32,30 +32,25 @@ const ProjectCard = ({
   return (
     <FloatingElement
       delay={delay}
-      sensitivity={25}
-      className={cn('card-hover transition-transform', className)}
+      sensitivity={30}
+      className={cn('touch-hover touch-active transition-transform', className)}
     >
       <Card className="h-full overflow-hidden border-0 glass">
-        <div className="relative h-48 overflow-hidden image-zoom">
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-purple/20 to-ocean-blue/20 z-10 opacity-0 hover:opacity-100 transition-opacity duration-300"></div>
+        <div className="relative h-48 overflow-hidden">
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
           />
         </div>
         
         <CardHeader>
-          <CardTitle className="text-xl text-gradient">{title}</CardTitle>
+          <CardTitle className="text-xl">{title}</CardTitle>
           <div className="flex flex-wrap gap-2 mt-2">
-            {tags.map((tag, index) => (
+            {tags.map((tag) => (
               <span
                 key={tag}
-                className="px-2 py-1 text-xs rounded-full bg-primary-purple/10 text-primary-purple hover:bg-primary-purple/20 transition-colors duration-300"
-                style={{ 
-                  transitionDelay: `${index * 50}ms`,
-                  animationDelay: `${index * 100}ms`
-                }}
+                className="px-2 py-1 text-xs rounded-full bg-primary-purple/10 text-primary-purple"
               >
                 {tag}
               </span>
@@ -73,7 +68,7 @@ const ProjectCard = ({
             <Button 
               variant="outline" 
               size="sm" 
-              className="flex-1 gap-2 button-pop bg-gradient-to-r from-primary-purple/5 to-ocean-blue/5 hover:from-primary-purple/10 hover:to-ocean-blue/10"
+              className="flex-1 gap-2"
               onClick={() => window.open(liveLink, '_blank')}
             >
               <ExternalLink size={16} />
@@ -85,7 +80,7 @@ const ProjectCard = ({
             <Button 
               variant="outline" 
               size="sm" 
-              className="flex-1 gap-2 button-pop bg-gradient-to-r from-ocean-blue/5 to-primary-purple/5 hover:from-ocean-blue/10 hover:to-primary-purple/10"
+              className="flex-1 gap-2"
               onClick={() => window.open(repoLink, '_blank')}
             >
               <Github size={16} />
