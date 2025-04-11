@@ -105,7 +105,7 @@
 
 @layer utilities {
   .glass {
-    @apply bg-white/20 backdrop-blur-lg border border-white/30 shadow-xl;
+    @apply bg-white/15 backdrop-blur-lg border border-white/30 shadow-xl hover:shadow-2xl transition-shadow duration-300;
   }
   
   .glass-dark {
@@ -113,14 +113,38 @@
   }
   
   .touch-hover:hover {
-    @apply scale-105 shadow-lg;
+    @apply scale-105 shadow-lg transition-all duration-300;
   }
   
   .touch-active:active {
-    @apply scale-95;
+    @apply scale-95 transition-all duration-150;
   }
   
   .text-gradient {
     @apply bg-gradient-to-r from-primary-purple to-ocean-blue bg-clip-text text-transparent;
+  }
+  
+  .text-shimmer {
+    @apply bg-[length:200%_100%] animate-text-shimmer bg-gradient-to-r from-primary-purple via-ocean-blue to-primary-purple bg-clip-text text-transparent;
+  }
+  
+  .glow-effect {
+    @apply animate-glow;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:translate-y-[-8px] hover:shadow-xl;
+  }
+  
+  .button-pop {
+    @apply transition-all duration-200 active:scale-95 hover:scale-105;
+  }
+  
+  .image-zoom {
+    @apply overflow-hidden;
+  }
+  
+  .image-zoom img {
+    @apply transition-transform duration-700 hover:scale-110;
   }
 }
