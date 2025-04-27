@@ -29,7 +29,7 @@ const SkillsSection = () => {
         
         <FloatingElement delay={200}>
           <p className="text-muted-foreground text-center max-w-2xl mx-auto mb-16">
-            I've acquired a diverse set of skills throughout my journey as a web developer and designer.
+            I've acquired a diverse set of skills throughout my journey as a AI.
           </p>
         </FloatingElement>
         
