@@ -26,7 +26,7 @@ const HeroSection = () => {
           
           <FloatingElement delay={600}>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6">
-              Creative Web Developer & Designer
+              Creative AI user
             </h2>
           </FloatingElement>
           
