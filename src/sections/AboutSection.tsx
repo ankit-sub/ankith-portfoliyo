@@ -16,14 +16,13 @@ const AboutSection = () => {
           <div className="lg:w-1/2 order-2 lg:order-1">
             <FloatingElement delay={300}>
               <h3 className="text-2xl font-semibold mb-4">
-                I'm Ankith K R, a Passionate Web Developer & Designer
+                I'm Ankith K R, a Passionate About AI & ML
               </h3>
             </FloatingElement>
             
             <FloatingElement delay={400}>
               <p className="text-muted-foreground mb-4">
-                With over 5 years of experience in web development, I've had the 
-                opportunity to work on a diverse range of projects, from small business 
+                I've had the opportunity to work on a diverse range of projects, from small business 
                 websites to complex web applications.
               </p>
             </FloatingElement>
@@ -31,7 +30,7 @@ const AboutSection = () => {
             <FloatingElement delay={500}>
               <p className="text-muted-foreground mb-4">
                 My approach combines technical expertise with creative problem-solving. 
-                I believe that great design should not only look appealing but also 
+                I believe that great AI user should not only look appealing but also 
                 provide an intuitive and enjoyable user experience.
               </p>
             </FloatingElement>
