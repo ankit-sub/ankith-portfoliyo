@@ -39,17 +39,17 @@ const Qualifications = () => {
               <div className="space-y-8">
                 <div className="border-l-4 border-primary-purple pl-6 py-2 relative">
                   <div className="absolute w-4 h-4 rounded-full bg-primary-purple -left-[10px] top-0"></div>
-                  <h3 className="text-xl font-semibold">Bachelor of Technology in Computer Science</h3>
+                  <h3 className="text-xl font-semibold">Bachelor of Engineer in Computer Science in Airtificial Inteligence and Machine Learning</h3>
                   <p className="text-muted-foreground">Visvesvaraya Technological University</p>
-                  <p className="text-sm">2016 - 2020</p>
-                  <p className="mt-2">Graduated with distinction, focusing on web technologies and software development.</p>
+                  <p className="text-sm">2022 - 2026</p>
+                  <p className="mt-2">Graduated with distinction, focusing on AI technologies and software development.</p>
                 </div>
                 
                 <div className="border-l-4 border-primary-purple pl-6 py-2 relative">
                   <div className="absolute w-4 h-4 rounded-full bg-primary-purple -left-[10px] top-0"></div>
                   <h3 className="text-xl font-semibold">Advanced Web Development Certification</h3>
                   <p className="text-muted-foreground">Udemy</p>
-                  <p className="text-sm">2021</p>
+                  <p className="text-sm">2022</p>
                   <p className="mt-2">Completed intensive course on modern web development frameworks and techniques.</p>
                 </div>
               </div>
