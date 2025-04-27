@@ -1,4 +1,3 @@
-
 import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import FloatingElement from '@/components/FloatingElement';
@@ -9,7 +8,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
       <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-between gap-8">
         <div className="text-center lg:text-left lg:w-1/2 z-10">
           <FloatingElement delay={200}>
