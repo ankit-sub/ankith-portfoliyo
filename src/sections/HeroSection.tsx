@@ -58,9 +58,6 @@ const HeroSection = () => {
                 alt="Ankith K R" 
                 className="rounded-full object-cover w-full h-full border-4 border-white/50 shadow-lg"
               />
-              <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full glass flex items-center justify-center animate-float-subtle">
-                <span className="font-bold text-gradient">5+ Years</span>
-              </div>
             </div>
           </FloatingElement>
         </div>
