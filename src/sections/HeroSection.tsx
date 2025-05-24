@@ -52,7 +52,7 @@ const HeroSection = () => {
         <div className="lg:w-1/2 relative z-10">
           <FloatingElement animationType="float" delay={300}>
             <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto">
-              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-purple to-ocean-blue opacity-40 blur-3xl animate-pulse-subtle"></div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-purple to-ocean-blue opacity-10 blur-3xl animate-pulse-subtle"></div>
               <img 
                 src="/lovable-uploads/0dd3c233-4379-43e1-acac-941c16d81d03.png" 
                 alt="Ankith K R" 
