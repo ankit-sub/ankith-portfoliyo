@@ -1,3 +1,4 @@
+
 import { ArrowDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import FloatingElement from '@/components/FloatingElement';
@@ -53,8 +54,8 @@ const HeroSection = () => {
             <div className="relative w-72 h-72 md:w-96 md:h-96 mx-auto">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary-purple to-ocean-blue opacity-40 blur-3xl animate-pulse-subtle"></div>
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
-                alt="John Doe" 
+                src="/lovable-uploads/0dd3c233-4379-43e1-acac-941c16d81d03.png" 
+                alt="Ankith K R" 
                 className="rounded-full object-cover w-full h-full border-4 border-white/50 shadow-lg"
               />
               <div className="absolute -bottom-4 -right-4 w-24 h-24 rounded-full glass flex items-center justify-center animate-float-subtle">
